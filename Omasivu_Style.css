@@ -1,0 +1,15 @@
+html {background-color:purple;}
+
+.Div_1 {background-color:darkgray;} 
+.Div_2 {background-color:lightblue;}
+.Div_3 {background-color:darkgreen;}
+.Div_4 {background-color:orange;}
+.Div_5 {background-color:gray;}
+
+h1 {color:white; font-family:Arial;}
+h2 {color:black; font-family:Arial;}
+h3 {color:black; font-family:Arial;}
+
+p {color:white; font-family:Arial;}
+
+body {margin:right; max-width: 900px;}

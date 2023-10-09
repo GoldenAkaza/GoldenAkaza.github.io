@@ -6,56 +6,102 @@
     <link rel="stylesheet" href="Omasivu_Style.css">
 </head>
 <body>
-    <h1>Videopelilajityypit</h1>
-	<p>Videopelilajityypit eli genret. Pelit on jaoteltu genreihin,
-	<br> koska on moni pelit jaotellaan pelaajatyyppeihin sen mukaan, millaisia pelejä he pääasiassa pelaavat.</br> </p>
+    <Header>
+		<h1>Videopelilajityypit</h1>
+		<p>Videopelilajityypit eli genret. Pelit on jaoteltu genreihin,
+		<br> koska on moni pelit jaotellaan pelaajatyyppeihin sen mukaan, millaisia pelejä he pääasiassa pelaavat.</br> </p>
+	</Header>
 	
-	<div class="Div_1">
-		<h2>Toimintapelit</h2>
-		<p>Toimintapelit on jaettu kahteen osaan <strong>tappelu- ja ampumispeleihin.</strong>
-		<br>Molemmissa genreissä on toimintaa, mutta kummassakin on erilaiset tyylinsä.</br> </p>
-	</div>
+	<Main>
+		<Section id="toimintapelit"> 
+			<div class="Div_1">
+				<Header>
+				<h2>Toimintapelit</h2>
+				</Header>
+					<p>Toimintapelit on jaettu kahteen osaan <strong>tappelu- ja ampumispeleihin.</strong>
+					<br>Molemmissa genreissä on toimintaa, mutta kummassakin on erilaiset tyylinsä.</br> </p>
+			</div>
+		</Section>
+		
+		<Section id="Tappelupelit">
+			<div class="Div_2">
+				<Header>
+				<h3>Tappelupelit</h3>
+				</Header>
+					<p>Tappelupeleissä on yleensä 2 pelaajaa, jotka tappelevat toisiaan valitsemallaan hahmolla.
+					<br>Tappelupelit on myös jaettu <strong> 2D- ja 3D-tappelupeleihin.</strong></br> </p> 
+					<p> Tunnettuja tappelupelejä on Street Fighter, Mortal Kombat ja Tekken.</p>
+				
+				<figure>
+					<img src="Street_Fighter_6.jpeg" width="150" height="150" >
+					<img src="MK1.jpg" width="150" height="150">
+					<img src="Tekken_8.jpeg" width="150" height="150">
+				</figure>
+			</div>
+		</Section>
+		
+		<Section id="Ampumispelit">
+			<div class="Div_3">
+				<Header>
+				<h3>Ampumispelit</h3>
+				</Header>
+					<p>Ampumispelit on selkeetä ymmärtää.
+					<br> Siinä on aseita joilla ammutaan toisia pelaajia tai pelin tehtyjä vihollisia.</br> </p>
+					<p>Ampumispelit voi olla ensimmäisen persoonassa tai kolmannessa persoonassa.</p>
+					<p>Tunnettuja ampumispelejä on Call of Duty, Counter-Strike: Global Offensive ja Apex Legends. </p>
+				
+				<figure>
+					<img src="CoD.jpeg" width="150" height="150">
+					<img src="CSGO.jpg" width="150" height="150">
+					<img src="Apex_Legends.jpg" width="150" height="150">
+				</figure>
+			</div>
+		</Section>
+		
+		<Section id="Roolipelit">
+			<div class="Div_4">
+				<Header>
+				<h2>Roolipelit</h2>
+				</Header>
+					<p>Roolipelit eli <strong>RPG-pelit</strong>, joissa on hahmoja, joiden taidot tai ominaisuudet kehittyvät pelin edetessä.</p>
+					<p>Roolipelit voivat olla joko vakavampia, joissa tarinoiden pääpaino on ongelmien ratkaisussa ja juonen edistämisessä,
+					<br>tai nopeatempoisempia taistelupelejä.</br> </p>
+					<p>Tunnettuja RPG-pelejä on Skyrim, Elden Ring ja Cyberpunk 2077.</p>
+				
+				<figure>
+					<img src="Skyrim.jpeg" width="150" height="150">
+					<img src="Elden_Ring.jpeg" width="150" height="150">
+					<img src="Cyberpunk_2077.jpg" width="150" height="150">
+				</figure>
+			</div>
+		</Section>
+		
+		<Section id="Lisää pelejä">
+			<div class="Div_5">
+			<Header>
+			<h2>Lisää pelejä</h2>
+			</Header>
+				<ul>
+					<li> Final Fantasy </li>
+					<li> Genshin Impact </li>
+					<li> Baldur's gate 3 </li>
+				</ul>
+			</div>
+		</Section>
+		
+		<Section id="Semanttiset elementit">
+			<Header>
+			<h2>Semanttiset elementit</h2>
+			</Header>
+				<p>3 syytä käyttää HTML-koodin semattisia elementtejä.</p>
+					<ol>
+						<li>Koodin luotettavuus</li>
+						<li>Näkyy hakutuloksessa</li>
+						<li></li>
+					</ol>
+		</Section>
+	</Main>
 	
-	<div class="Div_2">
-		<h3>Tappelupelit</h3>
-		<p>Tappelupeleissä on yleensä 2 pelaajaa, jotka tappelevat toisiaan valitsemallaan hahmolla.
-		<br>Tappelupelit on myös jaettu <strong> 2D- ja 3D-tappelupeleihin.</strong></br> </p> 
-		<p> Tunnettuja tappelupelejä on Street Fighter, Mortal Kombat ja Tekken.</p>
-		<img src="Street_Fighter_6.jpeg" width="150" height="150" >
-		<img src="MK1.jpg" width="150" height="150">
-		<img src="Tekken_8.jpeg" width="150" height="150">
-	</div>
-	
-	<div class="Div_3">
-		<h3>Ampumispelit</h3>
-		<p>Ampumispelit on selkeetä ymmärtää.
-		<br> Siinä on aseita joilla ammutaan toisia pelaajia tai pelin tehtyjä vihollisia.</br> </p>
-		<p>Ampumispelit voi olla ensimmäisen persoonassa tai kolmannessa persoonassa.</p>
-		<p>Tunnettuja ampumispelejä on Call of Duty, Counter-Strike: Global Offensive ja Apex Legends. </p>
-		<img src="CoD.jpeg" width="150" height="150">
-		<img src="CSGO.jpg" width="150" height="150">
-		<img src="Apex_Legends.jpg" width="150" height="150">
-	</div>
-	
-	<div class="Div_4">
-		<h2>Roolipelit</h2>
-		<p>Roolipelit eli <strong>RPG-pelit</strong>, joissa on hahmoja, joiden taidot tai ominaisuudet kehittyvät pelin edetessä.</p>
-		<p>Roolipelit voivat olla joko vakavampia, joissa tarinoiden pääpaino on ongelmien ratkaisussa ja juonen edistämisessä,
-		<br>tai nopeatempoisempia taistelupelejä.</br> </p>
-		<p>Tunnettuja RPG-pelejä on Skyrim, Elden Ring ja Cyberpunk 2077.</p>
-		<img src="Skyrim.jpeg" width="150" height="150">
-		<img src="Elden_Ring.jpeg" width="150" height="150">
-		<img src="Cyberpunk_2077.jpg" width="150" height="150">
-	</div>
-	
-	<div class="Div_5">
-	<h2>Lisää pelejä</h2>
-	<ul>
-		<li> Final Fantasy </li>
-		<li> Genshin Impact </li>
-		<li> Baldur's gate 3 </li>
-	</ul>
-	</div>
 	
 </body>
 </html>

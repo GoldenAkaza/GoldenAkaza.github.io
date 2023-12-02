@@ -1,0 +1,69 @@
+
+
+
+
+
+Body{
+	Display:flex;
+	flex-wrap:wrap;
+	}
+
+h1	{
+	Width:100%;
+	Padding:10px;
+	}
+
+h2	{
+	width:100%;
+	text-align:center;
+	}
+
+p	{
+	Width:100%;
+	
+}
+
+div {border-style:solid;
+	background-color:lightblue;
+	}
+			
+ul.breadcrumb{
+	background-color:lightgray;
+	width:100%;
+	padding:10px;
+	margin:10px;
+	border-radius:10px;
+}
+
+li {
+	list-style-type:none;
+	
+}
+div.card{
+	Display:flex;
+	flex-direction:wrap;
+	justify-content:center;
+	padding:30px;
+	margin:10px;
+	background-color:black;
+	width:50%;
+	width:15em;
+	
+}
+
+div.dropdown{
+	Margin:10px;
+	
+}
+
+.btn{ 
+	padding:10px 40px;
+	margin:10px;
+	height:;
+	display:;
+}
+
+
+.btn-danger{
+	width:100%;
+}

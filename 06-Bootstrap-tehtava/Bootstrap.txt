@@ -1,0 +1,34 @@
+Bootstrap
+
+1. saa yksilöllisemmät sivut.
+2. Siinä on ylimääräistä koodia, joka hidastaa koodin nopeutta.
+3. Ei välttämättä toimi kaikissa projekteissa.
+4. Oppimiseen menee aikaa.
+5. voi olla vaikeeta kustomoida.
+6. Pitää jatkuvasti päivittää.
+
+
+Bootstrap
++ Responsiivisuus
++ Laaja käyttäjä- ja tukiverkosto
++ Voi lisätä omaa koodia tyylittelyyn
++ Laaja kirjasto
++ Nopeasti valmista
+- Raskas, paljon koodia, lataa hitaasti
+- Ainutlaatuisuus voi kärsiä
+- Kaikki näyttää vähän samalta
+- Riippuvainen päivityksistä, voi rikkoa sivun - erittäin harvinaista
+- Bootstrapin komponentit eivät toimi kaikissa elemntissä
+- Bootstrapin opettelukynnys
+
+Puolesta
+Kirsi kiireinen
+Pete Perusssiisti
+
+Vastaan 
+Ykä Yksilöllinen
+Pete Perussiisti
+Minna Monimutkainen
+
+???
+Piia Portfoliosivu

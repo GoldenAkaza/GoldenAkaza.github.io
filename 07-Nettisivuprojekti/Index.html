@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<Link rel="Stylesheet" href="Etusivu_style.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montagu+Slab:opsz@16..144&family=Source+Sans+3&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Figtree&family=Fjalla+One&family=Montagu+Slab:opsz@16..144&family=Source+Sans+3&display=swap" rel="stylesheet">
+	
+	<Title>Elden Ring</Title>
+</head>
+<body>
+	<Header>
+		<a href="index.html">
+			<img class="title" src="img/Elden-ring-title.webp" alt="EldenRing-title">
+		</a>
+	</Header>
+	
+	<Nav>
+		<ul class="Navbar">
+			<li Class="Navbar-Link"><a class="Nav-Link" href="Index.html">Home</a></li>
+			<li Class="Navbar-Link"><a class="Nav-Link" href="Bootstrap.html">More</a></li>
+			<li Class="Navbar-Link"><a class="Nav-Link" href="contact.asp">Contact</a></li>
+			
+			<li Class="Navbar-Link">	
+				<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+				<div id="id01" class="modal">
+				  
+				  <form class="modal-content animate" action="/action_page.php" method="post">
+					
+
+					<div class="container">
+					  <label for="uname"><b>Username</b></label>
+					  <input type="text" id="uname" placeholder="Enter Username" name="uname" required>
+
+					  <label for="psw"><b>Password</b></label>
+					  <input type="password" id="psw" placeholder="Enter Password" name="psw" required>
+						
+					  <button type="submit">Login</button>
+					  <label>
+						<input type="checkbox" checked="checked" name="remember"> Remember me
+					  </label>
+					</div>
+
+					<div class="container" style="background-color:#f1f1f1">
+					  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+					  <span class="psw">Forgot <a href="#">password?</a></span>
+					</div>
+				  </form>
+				</div>
+				<script>
+				// Get the modal
+				var modal = document.getElementById('id01');
+
+				// When the user clicks anywhere outside of the modal, close it
+				window.onclick = function(event) {
+					if (event.target == modal) {
+						modal.style.display = "none";
+					}
+				}
+				</script>
+					
+			</li>
+			
+			
+		
+		</ul>
+	</Nav>
+	
+	<Main>
+	
+		<Section id="Introduction" class="Intro">
+			<h2>What is Elden Ring</h2>
+				<p>
+				"Elden Ring" is an action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment.
+				It was released in February 2022.
+				The game is a collaborative project between Hidetaka Miyazaki, the creator of the acclaimed "Dark Souls" series,
+				and George R. R. Martin, the author of "A Song of Ice and Fire" series, which inspired the TV show "Game of Thrones."
+				</p>
+				
+				<p>
+				Set in a vast and interconnected open world called the Lands Between,
+				"Elden Ring" combines FromSoftware's signature challenging gameplay with an expansive and lore-rich universe.
+				Players can explore diverse environments, battle formidable enemies, and engage in intense combat encounters.
+				The game features a deep and intricate narrative, with a focus on exploration, discovery, and player-driven storytelling.
+				"Elden Ring" has received praise for its challenging gameplay, atmospheric world design, and collaborative storytelling elements,
+				making it a highly anticipated and well-received title in the action RPG genre.
+				</p>
+		</section>
+	
+	
+		<Section id="Story" Class="Story">
+			<h2>Story</h2>
+				<h3>Prologue</h3>
+					<p>
+					Long ago, in The Lands Between,
+					Queen Marika became a vessel for the Elden Ring. And so, in the name of the Erdtree,
+					Marika conquered the Lands with the aid of her husband Godfrey — a mighty warrior
+					and first Elden Lord — who fought alongside his warriors in the name of the Queen
+					until his very last worthy enemy was defeated and Marika's reign was absolute.
+					</p>
+					
+					<p>
+					Marika removed the Rune of Death from the Elden Ring and commanded her loyal shadow, Maliketh, to seal it away.
+					Thus, she and everyone blessed by her Grace would live forever, granting her the title of Queen Marika the Eternal.
+					However, this very same Grace was taken away from Godfrey and his army, whom she instructed to wage war and die abroad,
+					with the promise that life and Grace would be returned to them when needed.
+					</p>
+					
+					<p>
+					All those who were stripped of their Grace, as well as their descendants, became known as the Tarnished.
+					True to Marika's promise, their Grace was returned to them after their deaths,
+					and they were called back to the Lands Between to repair the shattered Elden Ring.
+					</p>
+					
+					<p>
+					Will the new Tarnished heed the call, or perish and be forgotten?
+					</p>
+					
+		</Section>
+	
+	
+		<section id="Game_events" class="events">
+			<h2>Game events</h2>
+			<p>
+			Queen Marika the Eternal is nowhere to be found, and Grace has revived many Tarnished to seek the Elden Ring, the player among them.
+			They will travel the Lands Between in hopes of becoming Elden Lord and reigning over a new era, should they surmount the challenges that await,
+			with the help of a vast assortment of weapons, spells, armors, and items,
+			to level a fight, and by adjusting the stats and attributes to decide proficiency and means of survival.
+			</p>
+		</section>
+	
+		<section id="Shardbearers" class="shardbearers">
+			<h2>Shardbearers</h2>
+				<p>
+				Shardbearers are special Bosses that are key to the progression of Elden Ring.
+				Defeating them will reward the player a Great Rune.
+				In order to progress the story,
+				one Great Rune is required to be granted an audience with the Two Fingers in the Roundtable Hold,
+				and two are required to access to Leyndell, Royal Capital.
+				At least three shardbearers must be defeated by the player in order to achieve an ending.
+				</p>
+		</section>
+			
+			
+			<article>
+				<h3>Godrick the Grafted</h3>
+				<img src="img/Godrick_the_Grafted.webp" alt="Godrick" class="article-image">
+				<p>
+				Godrick is a descendant of the Golden Lineage, the bloodline which began with Queen Marika the Eternal and her first consort Godfrey.
+				Only a distant relation of Marika's line, his divine blood was sorely diluted, and he was viewed as the runt of the litter.
+				</p>
+				
+				<p>
+				After the Elden Ring was shattered, Godrick inherited the Great Rune from the centre of the Elden Ring,
+				referred to as the anchor ring. During The Shattering, Godrick was hounded from the Leyndell, Royal Capital.
+				He claimed a multitude of treasures, including the Mimic's Veil, and then hid amongst the womenfolk to flee the city.
+				</p>
+			</article>
+			
+			<article>
+				<h3>Rennala, Queen of the Full Moon</h3>
+				<img src="img/Queen_Rennala.webp" alt="Rennala" class="article-image">
+				<p>
+				As a young astrologer who gazed at the night sky and always chased the stars,
+				Rennala would encounter an enchanting full moon that would one day bewitch the Academy of Raya Lucaria.
+				</p>
+				
+				<p>
+				In her youth, she was a prominent champion who charmed the academy with her lunar magic, becoming its master.
+				She established the house of Caria as royalty, and also led the Glintstone Knights.
+				These Carian Knights were heroes of the highest honors, anointed by the Lunar Queen,
+				and despite numbering fewer then twenty, their power made them a match for even the champions of gold in battle.
+				</p>
+			</article>
+			
+			<article>
+				<h3>Rykard, Lord of Blasphemy</h3>
+				<img src="img/Rykard_Lord_of_Blasphemy.webp" alt="Rykard" class="article-image">
+				<p>
+				Rykard was born the son of Radagon, a champion of the Erdtree, and Queen Rennala,
+				head of both the Carian Royal Family and the Academy of Raya Lucaria.
+				He had two siblings, Radahn and Ranni.
+				</p>
+				
+				<p>
+				At some point during the Shattering, Rykard fed himself, Great Rune and all, to the blasphemous serpent that dwelled on Mt. Gelmir,
+				an ancient traitor to the Erdtree, merging with the creature.
+				In the final moments before being devoured, he briefly had a vision of the future wherein he witnessed a serpent devouring the world.
+				</p>
+				
+				<p>
+				Following this, his lofty ambition degraded into gluttonous depravity.
+				He fed on his greatest champions, and in the bowels of the serpent, they became the lord's family.
+				Disturbed by what had become of their master and by the costly battles waged in his name,
+				Rykard's forces abandoned him.
+				Some attempted to put him to rest by searching for a mighty weapon capable of killing their lord.
+				Such a weapon was found in the Serpent-Hunter,
+				an enchanted spear crafted to hunt an immortal serpent in the distant past.
+				However, all attempts made to take his life failed.
+				The spear would come to reside in Rykard's chambers,
+				left by a former Recusant who hoped a worthy champion might one day appear to weild it and spare the once-noble Rykard from further dishonor.
+				
+				</p>
+			</article>
+			
+			<article>
+				<h3>Starscourge Radahn</h3>
+				<img src="img/Starscourge_Radahn.webp" alt="Radahn" class="article-image">
+				<p>
+				Radahn was born the son of Radagon, a champion of the Erdtree, and Queen Rennala,
+				head of both the Carian Royal Family and Academy of Raya Lucaria. He had two siblings, Rykard and Ranni.
+				Radahn inherited his father's flaming red hair, and was fond of its heroic implications.
+				From a young age, he was enamored with the Elden Lord Godfrey.
+				Attempting to emulate his idol, Radahn adorned his armor with lions, the symbol of Godfrey.
+				</p>
+				
+				<p>
+				From his stronghold of Redmane Castle in the Caelid Wilds,
+				Radahn led his armies against the forces of the other demigods.
+				By the end of the Shattering, only Radahn and his half-sister Malenia,
+				Blade of Miquella were the mightiest left standing.
+				The two fought to a stalemate in the Battle of Aeonia, which ended when Malenia unleashed her Scarlet Rot.
+				</p>
+				
+				<p>
+				The Scarlet Rot ravaged Caelid, and consumed Radahn from the inside, eating away at his psyche.
+				Following the Battle of Aeonia, Radahn roams the Wailing Dunes as a mindless beast who devours the flesh of friend and foe alike, howling at the sky.
+				Without their commander,
+				the Redmane Knights burned the crest on the left breast of their armor to indicate their resolve to not return home, and to serve as a bulwark against the spread of the rot in Caelid using fire.
+				</p>
+			</article>
+			
+			<article>
+				<h3>Morgott, the Omen King</h3>
+				<img src="img/Morgott.webp" alt="Morgott" class="article-image">
+				<p>
+				Morgott was born of the Golden Lineage, the offspring of the first Elden Lord, Godfrey and Queen Marika, and was the twin brother of Mohg.
+				The twins were both born as accursed Omen, and as a result were confined to the Subterranean Shunning Grounds below the capital.
+				Because they were born of royalty, their horns were not excised.
+				Unlike his brother, Morgott would renounce his accursed blood and seal it away within a blade,
+				which was in turn concealed within a wooden staff he carried.
+				</p>
+				
+				<p>
+				When Queen Marika shattered the Elden Ring, Morgott claimed one of the Great Runes.
+				With Leyndell in disarray, Morgott claimed the city for himself and defended it and the Erdtree against his fellow demigods.
+				While he succeeded in securing Leyndell, he found that the Erdtree would not admit him, or anyone else, to claim the title of Elden Lord.
+				Despite the fact that he had been reviled as an accursed fiend by the Golden Order, Morgott swore to protect the Erdtree.
+				</p>
+				
+				<p>
+				He assumed the name Margit the Fell Omen during the Shattering, slaughtering champions who approached the Erdtree in the hopes of becoming Elden Lord.
+				Under this pseudonym, he also lead the Night's Cavalry, who assisted him in the killing of great warriors, knights and champions.
+				Simultaneously, he ruled Leyndell as the Veiled Monarch.
+				</p>
+			</article>
+			
+			<article>
+				<h3>Mohg, Lord of Blood</h3>
+				<img src="img/Mohg.webp" alt="Mohg" class="article-image">
+				<p>
+				Mohg, also known as the Lord of Blood, was born of the Golden Lineage, the offspring of the first Elden Lord, Godfrey and Queen Marika, and was the twin brother of Morgott.
+				The twins were both born as accursed Omen, and as a result were confined to the Subterranean Shunning Grounds below Leyndell.
+				Because they were born of royalty, their horns were not excised.
+				Unlike his brother Morgott, Mohg would embrace his Omen blood.
+				</p>
+				
+				<p>
+				Deep underground, Mohg made contact with an Outer God known as the Formless Mother.
+				The Formless Mother ignited his accursed blood with fire, prompting him to develop powerful bloodflame magic.
+				</p>
+				
+				<p>
+				After his mother shattered the Elden Ring, Mohg escaped his confinement and claimed one of the shards of the Elden Ring.
+				The extent of Mohg's involvement in the subsequent wars known as the Shattering is unknown,
+				but he assumed the title of Lord of Blood and began quietly recruiting followers from his lair deep below ground.
+				</p>
+			</article>
+			
+			<article>
+				<h3>Malenia, Blade of Miquella</h3>
+				<img src="img/Malenia.webp" alt="Malenia" class="article-image">
+				<p>
+				Malenia was born the child of Queen Marika the Eternal and her second husband, the Elden Lord Radagon.
+				She had an elder twin brother by the name of Miquella.
+				Both Malenia and Miquella were Empyreans, meaning they had the potential to one day replace their mother as a new god of a coming age.
+				But since Radagon and Marika were in fact the same person, Malenia and Miquella were born afflicted.
+				Malenia was afflicted with the Scarlet Rot, which ravaged her from within and would cost her several limbs, while Miquella was afflicted with eternal childhood, unable to ever grow into adulthood.
+				</p>
+				
+				<p>
+				At some point, Malenia encountered a blind swordsman who had sealed away an Outer God of Rot.
+				The swordsman became her master, and trained her in the ways of the blade, allowing her to gain wings of unparalleled strength.
+				Malenia would eventually become a warrior without peer.
+				She would attract loyal servants like her Cleanrot Knights (who vowed to fight next to her despite the inevitable gradual putrefaction of their flesh), as well as worshippers, who believed her a goddess.
+				Members of House Marais, who were all sickly born, were naturally drawn to the beautiful and fierce Malenia who became such a powerful warrior in spite of being born into rot, and requiring prosthesis to fight.
+				</p>
+			</article>
+			
+			<article>
+				<h3>Miquella of the Halightree</h3>
+				<img src="img/Miquella.webp" alt="Miquella" class="article-image">
+				<p>
+				Miquella, like his twin sister Malenia, was born afflicted.
+				While Malenia was born with rot in her body, Miquella was cursed with the body of a perpetually young child.
+				The twins were very close, and Malenia would become her brother's sworn blade and protector, while Miquella worked tirelessly to try and undo the curses they had both been born into.
+				He made a promise to Malenia, who regarded him as the most fearsome Empyrean.
+				Miquella is said to be loved by many people, indeed he has the ability to compel affection from others.
+				</p>
+				
+				<p>
+				As an Empyrean, Miquella was chosen by his own Two Fingers as a possible candidate to succeed Queen Marika as a new god of the coming age.
+				He was an adherent of the Golden Order fundamentalism, developing new incantations as gifts to his father Radagon.
+				However, Miquella would abandoned fundamentalism when he found out it was unable to treat Malenia's rot.
+				It was then that he began creating Unalloyed gold.
+				He used it to craft needles that could ward away the meddling of outer gods and thus forestall Malenia's incurable rot,
+				and would later even be used to subdue the power of the Frenzied Flame.
+				He would also unsuccessfully try to find a solution for his half-brother Godwyn and his state of incomplete death.
+				</p>
+			</article>
+			
+			<article>
+				<h3>Ranni the Witch</h3>
+				<img src="img/Ranni.webp" alt="Ranni" class="article-image">
+				<p>
+				Originally known as Lunar Princess Ranni, she was the daughter of Radagon, a champion of the Golden Order,
+				and Queen Rennala, head of both the Carian Royal Family and the Academy of Raya Lucaria.
+				She had two older brothers, Radahn and Rykard.
+				</p>
+				
+				<p>
+				Ranni was also an Empyrean, meaning she had the potential to one day succeed Queen Marika as the divine ruler of the Lands Between.
+				The Two Fingers chose her as a potential successor and granted her a Shadow by the name of Blaidd to be her vassal.
+				He was approved of by Rennala, and was raised as her foster brother.
+				Ranni grew up playing with Blaidd, and they were often accompanied by Iji, a troll blacksmith who served the Carian royals.
+				</p>
+				
+				<p>
+				Led by the hand of her mother Rennala, young Ranni would encounter her Dark Moon.
+				What she beheld was cold, dark and veiled in occult mystery.
+				Deep in the woods, she would also encounter a snowy crone, known simply as the "Snow Witch", who would go on to become her secret mentor.
+				She was an old witch well versed in cold-based sorceries, and she taught Ranni to fear the dark moon as she imparted her cold sorcery.
+				The full Dark Moon, cold and leaden, would become Ranni's sigil and symbol of her power and authority.
+				</p>
+			</article>
+			
+		
+	
+	</Main>
+	
+	<footer>
+		<ul class="footer-list">
+			<li class="list-items">Css-taustakuva</li>
+			<li class="list-items">Css-box-Shadow</li>
+			<li class="list-items">Html Login Form</li>
+		</ul>
+	</footer>
+</body>
+</Html>

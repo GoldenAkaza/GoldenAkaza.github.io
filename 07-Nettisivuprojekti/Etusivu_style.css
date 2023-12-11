@@ -1,0 +1,295 @@
+
+/*Etusivun tyyli koodi*/
+
+Html {
+	background: url("img/Elden-ring.jpg") no-repeat center fixed;
+	background-size:cover;
+	height:auto;
+
+	}
+	
+Body {
+	max-width:90%;
+	margin:auto;
+}
+
+img {
+	max-width:350px;
+}
+
+img.title {
+	width:200px;
+	height:auto;
+	padding:20px 0px;
+	margin-top:10px;
+	
+}
+
+
+Nav {
+max-width:100%;
+margin:auto;
+box-shadow:5px 5px rgb(0,0,0,70%);
+
+}
+
+ul.Navbar {
+  list-style-type: none;
+  display:flex;
+  flex-wrap:wrap;
+  Justify-content:center;
+  padding:15px 40px;
+  background-color: #333;
+  overflow:hidden;
+  font-family:'Montagu Slab', serif;
+
+  
+}
+
+
+
+li a.Nav-Link {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin:0px 20px;
+ 
+}
+
+
+li a.Nav-Link:hover {
+  background-color: #111;
+}	
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #333;
+  color: white;
+  padding: 14px 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Montagu Slab', serif;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color:#111;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+Main {
+	Display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	Max-width:;
+	
+}
+
+
+.Intro {
+	background-color:rgb(0,0,0,80%);
+	width:100%;
+	padding:10px 30px;
+	margin:10px;
+}
+
+
+
+.Story {
+	background-color:rgb(0,0,0,80%);
+	width:40%;
+	padding:10px 30px;
+	margin:10px;
+}
+
+.events {
+	background-color:rgb(0,0,0,80%);
+	width:40%;
+	padding:10px 30px;
+	margin:10px;
+	
+}
+
+.shardbearers {
+	background-color:rgb(0,0,0,80%);
+	width:100%;
+	padding:30px;
+	margin:10px;
+}
+
+article {
+	background-color:rgb(0,0,0,80%);
+	width:45%;
+	padding:10px 20px 10px;
+	margin:10px;
+	
+}
+
+.article-image {
+		max-width:50%;
+		min-width:150px;
+		float:right; 
+		padding:20px;
+}
+
+article h3 {
+	padding:5px 20px;
+	text-align:center;
+}
+
+article p {
+	margin:20px;
+	padding:20px;
+	
+}
+
+h1 {
+	padding:20px;
+	color:white;
+	font-family: 'Montagu Slab', serif;
+}
+
+h2 {
+	color:white;
+	width:100%;
+	font-family: 'Montagu Slab', serif;
+}
+
+h3 {
+	color:white;
+	font-family: 'Montagu Slab', serif;
+}
+
+p {
+	color:white;
+	font-family: 'Figtree', sans-serif;
+}
+
+footer {
+	background-color:#333;
+	box-shadow:5px 5px rgb(0,0,0,70%);
+}
+
+ul.footer-list{
+	padding:15px 20px;
+	overflow:hidden;
+	
+}
+
+li.list-items {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin:0px 20px;
+}
+
+
+@media only screen and (max-width: 1200px){
+	.Story{width:100%;}
+	.events{width:100%;}
+	article{width:100%;}
+	
+	span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

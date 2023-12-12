@@ -79,6 +79,7 @@ h3 {
 	font-family: 'Montagu Slab', serif;
 	background-color:black;
 	color:white;
+	text-align:center;
 }
 
 p	{
@@ -88,6 +89,7 @@ p	{
 	font-family: 'Figtree', sans-serif;
 	color:white;
 	background-color:black;
+	font-size:18px;
 }
 
 div {border-style:solid;
@@ -127,6 +129,8 @@ li {
 
 .card-title {
 	color:white;
+	font-size:24px;
+	text-align:center;
 }
 
 
